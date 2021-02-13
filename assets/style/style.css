@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+/* beehive page css stars from here */
+.beeHive_container .beehive_sectionOne_container {
+  background-image: url("../images/beehiveImage.png");
+  background-size: cover;
+  height: 730px;
+  background-repeat: no-repeat;
+}
+.nav_links ul li:hover {
+  color: #e75e14;
+}
+.beeHive_container .beehive_sectionOne_container .logo_links_container .logo,
+.reviews_sectionOne_container .logo_links_container .logo,
+.certificate_sectionOne_container .logo_links_container .logo,
+.contact_sectionOne_container .logo_links_container .logo {
+  background-image: url("../images/logo1.png");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+}
+.beeHive_container .beehive_sectionTwelve_container {
+  background: #09232c;
+}
+.beeHive_container .beehive_sectionTwelve_container .footer_logo {
+  background-image: url("../images/logo-light1.png");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+}
+.beeHive_container .beehive_sectionOne_container .logo_links_container button {
+  outline: none;
+}
+.beeHive_container .beehive_sectionOne_container .title_paragraph,
+.reviews_sectionOne_container .title_paragraph,
+.contact_sectionOne_container .title_paragraph {
+  height: -webkit-fill-available;
+}
+.beeHive_container .beehive_sectionThree_container,
+.beehive_sectionFive_container {
+  background: #fcebe2;
+}
+.beeHive_container .progress_container .second_progress img {
+  height: 100%;
+}
+.beeHive_container .beehive_sectionTen_container {
+  background: linear-gradient(90deg, #d59671 0%, #ff8e4d 100%);
+}
+.beeHive_container .beehive_sectionEleven_container {
+  background: #ff9c66;
+  border: 1px solid #000000;
+  box-shadow: 0px 13.8611px 55.4444px #f2f5fa;
+}
+/* beehive page css ends here */
+/* review page css starts from here */
+.reviews_sectionOne_container {
+  background-image: url("../images/reviews.png");
+  background-size: cover;
+  height: 730px;
+  background-repeat: no-repeat;
+}
+.reviews_sectionTwo_container .arrow_image {
+  background-image: url("../images/downArrow.png");
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+}
+.reviews_sectionTwo_container .arrowUpward_image {
+  background-image: url("../images/arrowUpward.png");
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+}
+/* .certificate css */
+.certificate_sectionOne_container {
+  background-image: url("../images/certificate.png");
+  background-size: cover;
+  height: 290px;
+  background-repeat: no-repeat;
+}
+/* contact us css */
+.contact_sectionOne_container {
+  background-image: url("../images/contactCover.png");
+  background-size: cover;
+  height: 730px;
+  background-repeat: no-repeat;
+}
+.contactUs_section4 {
+  background-image: url("../images/contactus2.png");
+  background-size: cover;
+  height: 730px;
+  background-repeat: no-repeat;
+}
+.contactUs_section4 .content_container {
+  height: inherit;
+}
+/* common css */
+.beehive_common_blue_color {
+  color: #0d3d4d;
+}
+.beehive_common_orange_color {
+  color: #fc6411;
+}
+.beehive_common_background_orange_color {
+  background-color: #fc6411;
+}
+.beehive_common_background_orange_color:hover {
+  background-color: #e75e14;
+}
+.pink_background_color {
+  background: #fcebe2;
+}
+
+/* sidenav for mobile */
+.mobile_sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.mobile_sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.mobile_sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.mobile_sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

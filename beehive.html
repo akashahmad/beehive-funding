@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeeHive</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="beeHive_container">
+      <!-- section 1 stars from here-->
+      <div class="beehive_sectionOne_container py-5 px-2">
+        <!--header-->
+        <div
+          class="container mx-auto logo_links_container flex justify-between"
+        >
+          <div class="logo"></div>
+          <div class="nav_links">
+            <!-- apply button -->
+            <div class="flex justify-end">
+              <div class="hidden md:hidden lg:block xl:block">
+                <button
+                  class="bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-5 py-3 border border-white-400 rounded-full shadow"
+                >
+                  Apply Here!
+                </button>
+              </div>
+              <div class="lg:hidden xl:hidden">
+                <span
+                  style="font-size: 30px; cursor: pointer"
+                  onclick="openNav()"
+                  >&#9776;</span
+                >
+              </div>
+            </div>
+            <!-- links -->
+            <div class="py-5 hidden md:hidden lg:block xl:block">
+              <ul
+                class="m-0 list-none flex text-white text-lg font-extrabold"
+              >
+                <a href="#"><li class="px-4">Home</li></a>
+                <a href="about-us.html"><li class="px-4">About Us</li></a>
+                <a href="beehive.html"><li class="px-4">BeeLine</li></a>
+                <a href="reviews.html"><li class="px-4">Reviews</li></a>
+                <a href="events.html"><li class="px-4">Events</li></a>
+                <a href="contact-us.html"><li class="px-4">Contact</li></a>
+                <a href="event-single.html"
+                  ><li class="px-4">Resources</li></a
+                >
+              </ul>
+            </div>
+            <!-- mobileNavigation -->
+            <div id="mySidenav" class="mobile_sidenav">
+              <a
+                href="javascript:void(0)"
+                class="closebtn"
+                onclick="closeNav()"
+                >&times;</a
+              >
+              <a href="#">Home</a>
+              <a href="about-us.html">About Us</a>
+              <a href="beehive.html">BeeLine</a>
+              <a href="reviews.html">Reviews</a>
+              <a href="events.html">Events</a>
+              <a href="contact-us.html">Contact</a>
+              <a href="event-single.html">Resources</a>
+            </div>
+          </div>
+        </div>
+        <!-- body -->
+        <div
+          class="title_paragraph container mx-auto flex flex-col justify-center beehive_common_blue_color"
+        >
+          <h1
+            class="text-5xl font-extrabold sm:w-12 md:w-12/12 lg:w-6/12 xl:w-6/12"
+          >
+            Get Started with the "Beeline to Funding"
+          </h1>
+          <p class="py-5 text-1xl md:w-12/12 sm:w-12 lg:w-6/12 xl:w-6/12">
+            Find out how to begin your development as a professional trader
+            through the “Beeline-to-Funding” system, rapidly become an expert
+            trader, get funded, and potentially earn up to $2,532 a month
+            without losing a single dollar of your own money in the market.
+          </p>
+          <button
+            class="w-6/12 md:w-4/12 lg:w-2/12 xl:w-2/12 bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-4 rounded-full"
+          >
+            Apply Here
+          </button>
+        </div>
+      </div>
+      <!-- section 2 stars from here-->
+      <div class="beehive_sectionTwo_container container mx-auto py-12">
+        <!-- heading -->
+        <div class="beehive_common_blue_color text-center text-4xl py-10">
+          <h1>HOW IT WORKS</h1>
+        </div>
+        <!-- left-side and right-side div container -->
+        <div
+          class="md:flex lg:flex xl:flex py-5 md:justify-between lg:justify-between xl:justify-between"
+        >
+          <!-- left-side  -->
+          <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+            <h2 class="text-4xl beehive_common_orange_color">
+              THE BEELINE TO FUNDING
+            </h2>
+            <p class="py-5">
+              The Beeline is an innovative Trader Development System which takes
+              you step-by-step from a beginner trader to a professional trader
+              in as little as 1 hour a day. In this system, you’ll gain
+              experience by watching training videos and by placing trades,
+              because practice makes profit. As you gain experience and increase
+              your skills, you’ll rise through the Beeline hives from Copper, to
+              Bronze, to Silver, and finally Gold! When you finish Gold, you’ll
+              be given your very own Apiary Fund trading account you can manage
+              for profits!
+            </p>
+          </div>
+          <!-- right-side  -->
+          <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+            <h2 class="text-4xl beehive_common_orange_color">WHY BEELINE?</h2>
+            <p class="py-5">
+              The Beeline to Funding overcomes two of the biggest hurdles facing
+              new traders: (1) lack of experience, and (2) lack of funds. You’ll
+              gain the necessary experience while working through the Beeline
+              system, and upon completion, we provide you the funds to trade!`
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- section 3 stars from here-->
+      <div class="beehive_sectionThree_container py-12">
+        <div class="container mx-auto py-12">
+          <!-- left-side and right-side div container -->
+          <div
+            class="md:flex lg:flex xl:flex py-5 md:justify-between lg:justify-between xl:justify-between"
+          >
+            <!-- left-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <img src="./assets/images/step2-11.png" />
+            </div>
+            <!-- right-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <h2 class="text-3xl beehive_common_orange_color">LEVEL One</h2>
+              <h3 class="text-4xl beehive_common_blue_color py-3">
+                BRONZE HIVE
+              </h3>
+              <p class="py-5">
+                The Beeline to Funding overcomes two of the biggest hurdles
+                facing new traders: (1) lack of experience, and (2) lack of
+                funds. You’ll gain the necessary experience while working
+                through the Beeline system, and upon completion, we provide you
+                the funds to trade!`
+              </p>
+              <div class="py-8">
+                <button
+                  class="w-4/12 beehive_common_background_orange_color text-white font-bold py-3 px-4 rounded-full"
+                >
+                  Next Level
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 4 stars from here-->
+      <div class="beehive_sectionFour_container py-12">
+        <div class="container mx-auto py-12">
+          <!-- left-side and right-side div container -->
+          <div
+            class="md:flex lg:flex xl:flex py-5 md:justify-between lg:justify-between xl:justify-between"
+          >
+            <!-- left-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <h2 class="text-3xl beehive_common_orange_color">LEVEL Two</h2>
+              <h3 class="text-4xl beehive_common_blue_color py-3">
+                SILVER HIVE
+              </h3>
+              <p class="py-5">
+                Here you will learn more advanced tradings and it is actually
+                the beginning to the Sniper Strategy trade. During this time,
+                you are expected to trade in a live account but only using a
+                $500 account. A successful trader with 60% win rate will advance
+                after completing the expected 12trades a month. Here you will
+                get 30% of whatever you make. Hopefully You Don’t below up the
+                account.Maintain This Status for 2 Months.
+              </p>
+              <div class="py-8">
+                <button
+                  class="w-4/12 beehive_common_background_orange_color text-white font-bold py-3 px-4 rounded-full"
+                >
+                  Next Level
+                </button>
+              </div>
+            </div>
+            <!-- right-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <img src="./assets/images/step1.1.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 6 stars from here-->
+      <div class="beehive_sectionFive_container py-12">
+        <div class="container mx-auto py-12">
+          <!-- left-side and right-side div container -->
+          <div
+            class="md:flex lg:flex xl:flex py-5 md:justify-between lg:justify-between xl:justify-between"
+          >
+            <!-- left-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <img src="./assets/images/step2-11.png" />
+            </div>
+            <!-- right-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <h2 class="text-3xl beehive_common_orange_color">LEVEL Three</h2>
+              <h3 class="text-4xl beehive_common_blue_color py-3">GOLD HIVE</h3>
+              <p class="py-5">
+                here you are moving up in the Hive and your revard is greater
+                but so is the responsiblility. At this level your account size
+                is increate to $1000 and you are still expected to make 12trades
+                a month but your expected win rate is 70% but it also comes with
+                a 40% return back to you on what you make.Maintain this status
+                for 3months.
+              </p>
+              <div class="py-8">
+                <button
+                  class="w-4/12 beehive_common_background_orange_color text-white font-bold py-3 px-4 rounded-full"
+                >
+                  Apply Here
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 7 stars from here-->
+      <div class="beehive_sectionFour_container py-12">
+        <div class="container mx-auto py-12">
+          <!-- left-side and right-side div container -->
+          <div
+            class="md:flex lg:flex xl:flex py-5 md:justify-between lg:justify-between xl:justify-between"
+          >
+            <!-- left-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <h2 class="text-3xl beehive_common_orange_color">LEVEL Four</h2>
+              <h3 class="text-4xl beehive_common_blue_color py-3">
+                Platinum Hive
+              </h3>
+              <p class="py-5">
+                Here your are now a partner to be paid attention to. You have
+                mastered the trades and ready to move up. You will have access
+                to $4,000 to trade. Again, you are only expected to make
+                12trades a month and your expected win rate needs to stav at 80%
+                because you will get to keep 50% of whatever you make.
+              </p>
+              <div class="py-8">
+                <button
+                  class="w-4/12 beehive_common_background_orange_color text-white font-bold py-3 px-4 rounded-full"
+                >
+                  Next Level
+                </button>
+              </div>
+            </div>
+            <!-- right-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <img src="./assets/images/step1.1.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 8 stars from here-->
+      <div class="container mx-auto py-12">
+        <!-- heading -->
+        <div
+          class="beehive_common_blue_color text-center text-4xl py-10 font-extrabold"
+        >
+          <h1>Account Progression</h1>
+        </div>
+        <!-- progress -->
+        <div
+          class="progress_container lg:flex xl:flex justify-center px-3 py-10"
+        >
+          <!-- 1st  -->
+          <div
+            class="sm:w-12/12 md:w-12/12 lg:w-2/12 xl:w-2/12 flex flex-col align-center px-3 py-2"
+          >
+            <h1
+              class="beehive_common_blue_color text-center py-2 text-2xl font-extrabold py-3"
+            >
+              Beeline to Funding
+            </h1>
+            <img src="./assets/images/beeline-to-funding.png" />
+          </div>
+          <!-- 2nd -->
+          <div
+            class="second_progress sm:w-12/12 md:w-12/12 lg:w-2/12 xl:w-2/12 flex flex-col align-center px-3 py-3"
+          >
+            <h1
+              class="beehive_common_blue_color text-center py-2 text-2xl font-extrabold"
+            >
+              Level 1
+            </h1>
+            <img src="./assets/images/level-1.png" />
+            <h6
+              class="beehive_common_blue_color text-center py-2 text-2xl font-extrabold"
+            >
+              You keep 60%
+            </h6>
+          </div>
+          <!-- 3rd -->
+          <div
+            class="sm:w-12/12 md:w-12/12 lg:w-2/12 xl:w-2/12 flex flex-col align-center px-3 py-3"
+          >
+            <h1
+              class="beehive_common_blue_color text-center py-2 text-2xl font-extrabold"
+            >
+              Level 2
+            </h1>
+            <img src="./assets/images/level-2.png" />
+            <h6
+              class="beehive_common_blue_color text-center py-2 text-2xl font-extrabold"
+            >
+              You keep 60%
+            </h6>
+          </div>
+          <!-- 4th -->
+          <div
+            class="sm:w-12/12 md:w-12/12 lg:w-2/12 xl:w-2/12 flex flex-col align-center px-3 py-3"
+          >
+            <h1
+              class="beehive_common_blue_color text-center py-2 text-2xl font-extrabold"
+            >
+              Level 3
+            </h1>
+            <img src="./assets/images/level-3.png" />
+            <h6
+              class="beehive_common_blue_color text-center py-2 text-2xl font-extrabold"
+            >
+              You keep 60%
+            </h6>
+          </div>
+          <!-- 5th -->
+          <div
+            class="sm:w-12/12 md:w-12/12 lg:w-2/12 xl:w-2/12 flex flex-col align-center px-3 py-3"
+          >
+            <h1
+              class="beehive_common_blue_color text-center py-2 text-2xl font-extrabold"
+            >
+              Level 4
+            </h1>
+            <img src="./assets/images/level-4.png" />
+            <h6
+              class="beehive_common_blue_color text-center py-2 text-2xl font-extrabold"
+            >
+              You keep 60%
+            </h6>
+          </div>
+        </div>
+      </div>
+      <!-- section 9 stars from here-->
+      <div class="container mx-auto flex flex-col items-center py-12">
+        <!-- logo and heading -->
+        <div class="flex justify-center">
+          <img src="./assets/images/gold-31.png" />
+        </div>
+        <div class="flex justify-center">
+          <h3
+            class="text-4xl beehive_common_blue_color py-3 w-8/12 text-center font-extrabold"
+          >
+            Unlock your fundede Account when You Compelete The Gold Hive
+          </h3>
+        </div>
+      </div>
+      <!-- section 10 stars from here-->
+      <div class="beehive_sectionTen_container py-12">
+        <div class="container mx-auto">
+          <!-- heading -->
+          <div class="flex justify-center py-5">
+            <h1
+              class="text-4xl beehive_common_blue_color py-3 w-8/12 text-center font-extrabold"
+            >
+              THE BEELINE TO FUNDING PROGRAM VS. MOST OTHER TRADING PROGRAMS
+            </h1>
+          </div>
+          <!-- cards -->
+          <div class="lg:flex xl:flex justify-center py-12 px-5">
+            <!-- left-side card -->
+            <div
+              class="shadow-md rounded-lg bg-white px-6 py-10 sm:w-10/12 md:w-10/12 lg:w-3/12 xl:w-3/12 mx-2 my-2"
+            >
+              <!-- heading -->
+              <div>
+                <h1
+                  class="text-2xl beehive_common_blue_color py-3 text-center font-extrabold border-solid border-b-2 border-light-gray-500"
+                >
+                  BEELINE TO FUNDING
+                </h1>
+              </div>
+              <!-- body -->
+              <div class="font-bold py-3">
+                <p class="text-center text-black py-2">We Deliver Experience</p>
+                <p class="text-center text-black_color py-2">
+                  Training With the Intention to Fund You
+                </p>
+                <p class="text-center text-black py-2">
+                  Preaches Risk Management
+                </p>
+                <p class="text-center text-black py-2">
+                  Provided With Custom Simulated Account
+                </p>
+                <p class="text-center text-black py-2">
+                  Access to Experts and Community
+                </p>
+                <p class="text-center text-black py-2">
+                  100% Personal Support via Email & Webinar
+                </p>
+                <div class="py-8 flex justify-center">
+                  <button
+                    class="w-7/12 beehive_common_background_orange_color text-white font-bold py-3 px-4 rounded-full"
+                  >
+                    Apply Here
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- right-side card -->
+            <div
+              class="mx-2 my-2 shadow-md rounded-lg bg-white px-6 py-10 sm:w-10/12 md:w-10/12 lg:w-3/12 xl:w-3/12"
+            >
+              <!-- heading -->
+              <div>
+                <h1
+                  class="text-2xl beehive_common_blue_color py-3 text-center font-extrabold border-solid border-b-2 border-light-gray-500"
+                >
+                  OTHER PROGRAMS
+                </h1>
+              </div>
+              <!-- body -->
+              <div class="font-bold py-3">
+                <p class="text-center text-black py-2">
+                  They Deliver "Education"
+                </p>
+                <p class="text-center text-black_color py-2">
+                  Training You Without Regard for Success
+                </p>
+                <p class="text-center text-black py-2">Preaches Risky Trades</p>
+                <p class="text-center text-black py-2">
+                  Often Told to Use Your Own Account
+                </p>
+                <p class="text-center text-black py-2">
+                  No Access to Experts or Community
+                </p>
+                <p class="text-center text-black py-2">Limited Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 11 stars from here-->
+      <div class="beehive_sectionEleven_container py-10">
+        <div
+          class="container mx-auto lg:flex xl:flex md:justify-between lg:justify-between xl:justify-between"
+        >
+          <div>
+            <h1
+              class="text-3xl beehive_common_blue_color py-3 font-extrabold sm:w-12 md:w-10/12 lg:w-8/12 xl:w-8/12 px-5"
+            >
+              ARE YOU READY TO DEVOTE ONE HOUR PER DAY TO CREATE AN ADDITIONAL
+              INCOME STREAM?
+            </h1>
+          </div>
+          <div class="py-8 sm:w-10/12 lg:w-4/12 xl:w-4/12 px-5">
+            <button
+              class="w-12/12 beehive_common_background_orange_color text-white font-bold py-3 px-4 rounded-full button_section11"
+            >
+              Apply Here
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <!-- section 11 stars from here-->
+      <div class="beehive_sectionTwelve_container py-12 px-10">
+        <div class="container mx-auto">
+          <div class="lg:flex xl:flex">
+            <!-- logo -->
+            <div class="lg:w-2/12 xl:w-2/12 flex justify-center pb-5">
+              <div class="footer_logo"></div>
+            </div>
+            <!-- links -->
+            <div class="lg:flex xl:flex lg:w-10/12 xl:w-10/12">
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Links
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Product Tour
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Pricing</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Founding Members
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Case Studies
+                </li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Company
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Blog</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Career</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Privacy</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">About</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Support
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Documentation
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Security
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Mobility Guide
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">FAQs</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Legal
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Terms of Service
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Privacy Policy
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Cookie Information
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  GDPR Commitment
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

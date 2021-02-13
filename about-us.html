@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeeHive</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="beeHive_container">
+      <!-- section 1 stars from here-->
+      <div class="contact_linearImage">
+        <div class="contact_sectionOne_container py-5 px-2">
+          <!--header-->
+          <div
+            class="container mx-auto logo_links_container flex justify-between"
+          >
+            <div class="logo"></div>
+            <div class="nav_links">
+              <!-- apply button -->
+              <div class="flex justify-end">
+                <div class="hidden md:hidden lg:block xl:block">
+                  <button
+                    class="bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-5 py-3 border border-white-400 rounded-full shadow"
+                  >
+                    Apply Here!
+                  </button>
+                </div>
+                <div class="lg:hidden xl:hidden">
+                  <span
+                    style="font-size: 30px; cursor: pointer"
+                    onclick="openNav()"
+                    >&#9776;</span
+                  >
+                </div>
+              </div>
+              <!-- links -->
+              <div class="py-5 hidden md:hidden lg:block xl:block">
+                <ul
+                  class="m-0 list-none flex text-white text-lg font-extrabold"
+                >
+                  <a href="#"><li class="px-4">Home</li></a>
+                  <a href="about-us.html"><li class="px-4">About Us</li></a>
+                  <a href="beehive.html"><li class="px-4">BeeLine</li></a>
+                  <a href="reviews.html"><li class="px-4">Reviews</li></a>
+                  <a href="events.html"><li class="px-4">Events</li></a>
+                  <a href="contact-us.html"><li class="px-4">Contact</li></a>
+                  <a href="event-single.html"
+                    ><li class="px-4">Resources</li></a
+                  >
+                </ul>
+              </div>
+              <!-- mobileNavigation -->
+              <div id="mySidenav" class="mobile_sidenav">
+                <a
+                  href="javascript:void(0)"
+                  class="closebtn"
+                  onclick="closeNav()"
+                  >&times;</a
+                >
+                <a href="#">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="beehive.html">BeeLine</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="events.html">Events</a>
+                <a href="contact-us.html">Contact</a>
+                <a href="event-single.html">Resources</a>
+              </div>
+            </div>
+          </div>
+          <!-- body -->
+          <div
+            class="title_paragraph container mx-auto flex flex-col justify-center beehive_common_blue_color"
+          >
+            <h1 class="text-4xl text-center font-extrabold">
+              TWENTY-SIX YEARS OF EXPERIENCE MANAGING UP TO
+            </h1>
+            <p class="py-5 text-2xl font-extrabold text-center">
+              $2,500,000,000 OF INVESTOR FUNDS
+            </p>
+            <div class="flex justify-center py-3">
+              <button
+                class="w-3/12 bg-white hover:bg-gray-200 beehive_common_orange_color font-semibold py-2 px-5 py-3 border border-white-400 rounded-full shadow"
+              >
+                Apply Here!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 2 stars from here-->
+      <div class="beehive_sectionTwo_container container mx-auto py-12">
+        <!-- title   -->
+        <div>
+          <h2 class="text-2xl py-2 text-center font-bold text-gray-500">
+            INTRODUCING
+          </h2>
+          <h2
+            class="text-3xl text-center font-extrabold beehive_common_blue_color"
+          >
+            OUR LEADERSHIP
+          </h2>
+        </div>
+        <!-- left-side and right-side div container -->
+        <div
+          class="md:flex lg:flex xl:flex py-5 md:justify-between lg:justify-between xl:justify-between"
+        >
+          <!-- left-side  -->
+          <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+            <div class="py-4">
+              <img src="./assets/images/contact2.png" />
+            </div>
+            <h2 class="text-1xl font-extrabold text-gray-500 px-2 py-2">
+              HEAD TRADER
+            </h2>
+            <h2 class="text-2xl font-extrabold beehive_common_blue_color px-3">
+              SHAWN LUCAS
+            </h2>
+            <p class="py-5 px-3 text-justify">
+              Shawn Lucas is the founder and fund manager at Beehive Fund. With
+              a degree in economics, he began his career as a broker for
+              Fidelity and Charles Schwab where he worked the trading desk and
+              processed orders for high net worth investors. An expert in the
+              field of technical and economic analysis of the financial markets,
+              Lucas has since established his reputation as a thought leader and
+              guest speaker for several financial companies including Reuters
+              and TD Ameritrade. He has traveled extensively throughout the
+              world providing lectures, training, consulting, and expert
+              testimony to companies and individuals on the art and science of
+              financial analysis. Lucas has authored sixteen books and studies
+              on the use of technical and economic analysis in stock, option,
+              and futures trading. His simple and methodical approach to the
+              markets has helped thousands of investors better understand and
+              improve their performance and profitability in the financial
+              markets.
+            </p>
+          </div>
+          <!-- right-side  -->
+          <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+            <div class="py-4">
+              <img src="./assets/images/contact1.png" />
+            </div>
+            <h2 class="text-1xl font-extrabold text-gray-500 px-2">
+              TRADER AND STRATEGY COACH
+            </h2>
+            <h2
+              class="text-2xl font-extrabold beehive_common_blue_color py-2 px-3"
+            >
+              NATHAN ALLRED
+            </h2>
+            <p class="py-5 px-3 text-justify">
+              Nathan Allred is a professional trader with more than 10 years
+              experience. He has managed his own funds as well as being a funded
+              trader of Apiary. He specializes in developing trade strategies,
+              setups and tactics that he uses for his own trade accounts and
+              Apiary's trade account. He transfers that knowledge to other
+              traders who will trade on behalf of the Beehive Fund. He has
+              guided the recruiting process and activities for national and
+              global companies including Apiary Fund, Grow Rich Stay Rich,
+              Investview, and Star Trader to name a few. He specializes in
+              communications coaching and counseling of new and expert
+              investors, traders, and speculators. Nate has traveled the country
+              speaking to traders and empowering them with the skill sets needed
+              to navigate the nefarious waters of the Financial markets.
+              Specialties: Strategic Methodology planning, systems training and
+              coaching, psychological trading control, sound money management
+              principles, trader relations and outreach, and is well known for
+              his insights on current events.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- section 3 stars from here-->
+      <div class="py-12 pink_background_color">
+        <div
+          class="container mx-auto lg:flex xl:flex lg:justify-between xl:justify-between py-8 px-12"
+        >
+          <!-- left side -->
+          <div class="xl:w-4/12 lg:w-4/12">
+            <h2
+              class="text-1xl text-center lg:text-left xl:text-left py-2 font-bold beehive_common_orange_color"
+            >
+              Our Members
+            </h2>
+            <h2
+              class="text-2xl py-2 text-center lg:text-left xl:text-left font-bold beehive_common_blue_color"
+            >
+              OUR TEAM OF PROFESSIONALS
+            </h2>
+          </div>
+          <!-- right side -->
+          <div class="xl:w-8/12 lg:w-8/12">
+            <div class="lg:flex xl:flex lg:justify-between xl:justify-between">
+              <!-- profile 1 -->
+              <div class="py-2">
+                <!-- img -->
+                <div class="flex justify-center">
+                  <img src="./assets/images/profile1.png" />
+                </div>
+                <!-- name -->
+                <div>
+                  <h1 class="text-2xl beehive_common_orange_color text-center">
+                    Cassidy Cabanzo
+                  </h1>
+                </div>
+                <!-- profile -->
+                <div>
+                  <h1 class="text-1xl text-gray-500 text-center">
+                    Pre Fund Manager
+                  </h1>
+                </div>
+              </div>
+              <!-- profile 2 -->
+              <div class="py-2">
+                <!-- img -->
+                <div class="flex justify-center">
+                  <img src="./assets/images/profile2.png" />
+                </div>
+                <!-- name -->
+                <div>
+                  <h1 class="text-2xl beehive_common_orange_color text-center">
+                    Cassidy Cabanzo
+                  </h1>
+                </div>
+                <!-- profile -->
+                <div>
+                  <h1 class="text-1xl text-gray-500 text-center">
+                    Pre Fund Manager
+                  </h1>
+                </div>
+              </div>
+              <!-- profile 3 -->
+              <div class="py-2">
+                <!-- img -->
+                <div class="flex justify-center">
+                  <img src="./assets/images/profile3.png" />
+                </div>
+                <!-- name -->
+                <div>
+                  <h1 class="text-2xl beehive_common_orange_color text-center">
+                    Cassidy Cabanzo
+                  </h1>
+                </div>
+                <!-- profile -->
+                <div>
+                  <h1 class="text-1xl text-gray-500 text-center">
+                    Pre Fund Manager
+                  </h1>
+                </div>
+              </div>
+              <!-- profile 4 -->
+              <div class="py-2">
+                <!-- img -->
+                <div class="flex justify-center">
+                  <img src="./assets/images/profile4.png" />
+                </div>
+                <!-- name -->
+                <div>
+                  <h1 class="text-2xl beehive_common_orange_color text-center">
+                    Cassidy Cabanzo
+                  </h1>
+                </div>
+                <!-- profile -->
+                <div>
+                  <h1 class="text-1xl text-gray-500 text-center">
+                    Pre Fund Manager
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              class="lg:flex xl:flex lg:justify-between xl:justify-between py-5"
+            >
+              <!-- profile 1 -->
+              <div class="py-2">
+                <!-- img -->
+                <div class="flex justify-center">
+                  <img src="./assets/images/profile5.png" />
+                </div>
+                <!-- name -->
+                <div>
+                  <h1 class="text-2xl beehive_common_orange_color text-center">
+                    Cassidy Cabanzo
+                  </h1>
+                </div>
+                <!-- profile -->
+                <div>
+                  <h1 class="text-1xl text-gray-500 text-center">
+                    Pre Fund Manager
+                  </h1>
+                </div>
+              </div>
+              <!-- profile 2 -->
+              <div class="py-2">
+                <!-- img -->
+                <div class="flex justify-center">
+                  <img src="./assets/images/profile6.png" />
+                </div>
+                <!-- name -->
+                <div>
+                  <h1 class="text-2xl beehive_common_orange_color text-center">
+                    Cassidy Cabanzo
+                  </h1>
+                </div>
+                <!-- profile -->
+                <div>
+                  <h1 class="text-1xl text-gray-500 text-center">
+                    Pre Fund Manager
+                  </h1>
+                </div>
+              </div>
+              <!-- profile 3 -->
+              <div class="py-2">
+                <!-- img -->
+                <div class="flex justify-center">
+                  <img src="./assets/images/profile7.png" />
+                </div>
+                <!-- name -->
+                <div>
+                  <h1 class="text-2xl beehive_common_orange_color text-center">
+                    Cassidy Cabanzo
+                  </h1>
+                </div>
+                <!-- profile -->
+                <div>
+                  <h1 class="text-1xl text-gray-500 text-center">
+                    Pre Fund Manager
+                  </h1>
+                </div>
+              </div>
+              <!-- profile 4 -->
+              <div class="py-2">
+                <!-- img -->
+                <div class="flex justify-center">
+                  <img src="./assets/images/profile8.png" />
+                </div>
+                <!-- name -->
+                <div>
+                  <h1 class="text-2xl beehive_common_orange_color text-center">
+                    Cassidy Cabanzo
+                  </h1>
+                </div>
+                <!-- profile -->
+                <div>
+                  <h1 class="text-1xl text-gray-500 text-center">
+                    Pre Fund Manager
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 4 stars from here-->
+      <div class="contactUs_section4 px-6 py-12">
+        <div
+          class="container mx-auto flex justify-end content_container items-center"
+        >
+          <div class="lg:w-6/12 xl:w-6/12 flex flex-col justify-center">
+            <h1 class="text-4xl font-extrabold beehive_common_blue_color">
+              Our Mission
+            </h1>
+            <p class="py-3 beehive_common_blue_color">
+              We aim to help you create a meaningful impact on your life by
+              providing you with a substantial opportunity to build a reliable,
+              secondary income stream. To accomplish this, we provide you with
+              the training, tools, proprietary strategies and funds to generate
+              consistent monthly profits. We can only grow as an organization by
+              helping you profit.
+            </p>
+            <div class="py-4">
+              <button
+                class="py-4 px-6 border-solid border border-black rounded-full font-bold hover:bg-gray-400 hover:text-white"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 5 stars from here-->
+      <div class="container mx-auto py-12">
+        <!-- heading   -->
+        <div class="px-12 py-10">
+          <h1 class="text-4xl beehive_common_blue_color text-center">
+            HOW BEEHIVE FUND WAS FOUNDED
+          </h1>
+          <p class="text-center py-5">
+            Having a lifelong career in money management and financial
+            education, our head trader was asked to be an expert witness in an
+            international case between an American and Chinese trading firm.
+            Upon arriving in China to observe the company’s practices, he was
+            surprised to learn that the company was training people from all
+            backgrounds to manage their money, rather than just those with
+            financial degrees. This provided the Chinese company with a unique
+            risk diversification model, having multiple traders using diverse
+            strategies. The Apiary Fund was created with a similar premise:
+            allowing anyone the opportunity to not only learn professional money
+            management skills, but also giving everyone the opportunity to trade
+            company money and keep the larger share of the profits. Trading
+            money that’s not their own also helps remove emotional stress from
+            Apiary Fund's traders. Using the internet, the professionals at the
+            Apiary Fund are able to train people all over the world, giving them
+            access to necessary software and training.
+          </p>
+        </div>
+      </div>
+      <!-- footer -->
+      <!-- section 11 stars from here-->
+      <div class="beehive_sectionTwelve_container py-12 px-10">
+        <div class="container mx-auto">
+          <div class="lg:flex xl:flex">
+            <!-- logo -->
+            <div class="lg:w-2/12 xl:w-2/12 flex justify-center pb-5">
+              <div class="footer_logo"></div>
+            </div>
+            <!-- links -->
+            <div class="lg:flex xl:flex lg:w-10/12 xl:w-10/12">
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Links
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Product Tour
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Pricing</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Founding Members
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Case Studies
+                </li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Company
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Blog</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Career</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Privacy</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">About</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Support
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Documentation
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Security
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Mobility Guide
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">FAQs</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Legal
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Terms of Service
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Privacy Policy
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Cookie Information
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  GDPR Commitment
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

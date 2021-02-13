@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeeHive</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="beeHive_container">
+      <!-- section 1 stars from here-->
+      <div class="reviews_sectionOne_container py-5 px-2">
+        <!--header-->
+        <div
+          class="container mx-auto logo_links_container flex justify-between"
+        >
+          <div class="logo"></div>
+          <div class="nav_links">
+            <!-- apply button -->
+            <div class="flex justify-end">
+              <div class="hidden md:hidden lg:block xl:block">
+                <button
+                  class="bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-5 py-3 border border-white-400 rounded-full shadow"
+                >
+                  Apply Here!
+                </button>
+              </div>
+              <div class="lg:hidden xl:hidden">
+                <span
+                  style="font-size: 30px; cursor: pointer"
+                  onclick="openNav()"
+                  >&#9776;</span
+                >
+              </div>
+            </div>
+            <!-- links -->
+            <div class="py-5 hidden md:hidden lg:block xl:block">
+              <ul
+                class="m-0 list-none flex text-white text-lg font-extrabold"
+              >
+                <a href="#"><li class="px-4">Home</li></a>
+                <a href="about-us.html"><li class="px-4">About Us</li></a>
+                <a href="beehive.html"><li class="px-4">BeeLine</li></a>
+                <a href="reviews.html"><li class="px-4">Reviews</li></a>
+                <a href="events.html"><li class="px-4">Events</li></a>
+                <a href="contact-us.html"><li class="px-4">Contact</li></a>
+                <a href="event-single.html"
+                  ><li class="px-4">Resources</li></a
+                >
+              </ul>
+            </div>
+            <!-- mobileNavigation -->
+            <div id="mySidenav" class="mobile_sidenav">
+              <a
+                href="javascript:void(0)"
+                class="closebtn"
+                onclick="closeNav()"
+                >&times;</a
+              >
+              <a href="#">Home</a>
+              <a href="about-us.html">About Us</a>
+              <a href="beehive.html">BeeLine</a>
+              <a href="reviews.html">Reviews</a>
+              <a href="events.html">Events</a>
+              <a href="contact-us.html">Contact</a>
+              <a href="event-single.html">Resources</a>
+            </div>
+          </div>
+        </div>
+        <!-- body -->
+        <div
+          class="title_paragraph container mx-auto flex flex-col justify-center beehive_common_blue_color flex items-center px-5"
+        >
+          <h1 class="text-5xl font-extrabold text-center py-12">
+            REVIEWS WE CAN BE PROUD OF...
+          </h1>
+        </div>
+      </div>
+      <!-- section 2 starts from here -->
+      <div class="reviews_sectionTwo_container py-12">
+        <div class="container mx-auto">
+          <!-- record one -->
+          <div class="py-5">
+            <!-- heading -->
+            <div>
+              <h1
+                class="text-2xl font-extrabold text-center beehive_common_blue_color py-4"
+              >
+                Overall Reviews
+              </h1>
+            </div>
+            <!-- image -->
+            <div class="flex justify-center">
+              <img src="./assets/images/MaskGroup.png" />
+            </div>
+            <!-- name -->
+            <div>
+              <h1
+                class="text-1xl font-extrabold text-center beehive_common_orange_color py-4"
+              >
+                LEN PAVIA
+              </h1>
+            </div>
+            <!-- heading -->
+            <div>
+              <h1
+                class="text-2xl font-extrabold text-center beehive_common_blue_color py-4"
+              >
+                EXPERIENCE AND PATH TO FUNDING WITH THE APIARY FUND
+              </h1>
+            </div>
+            <!-- paragraph -->
+            <div>
+              <h1
+                class="text-1xl font-extrabold text-center beehive_common_blue_color py-4"
+              >
+                Have you ever wanted to pick the brain of someone who has made
+                it through Beeline and is managing a funded account so you could
+                get some tips and expectations for your journey to funding?
+              </h1>
+              <div id="showMore-text3" class="hidden">
+                <p
+                  class="text-1xl font-extrabold text-center beehive_common_blue_color py-4"
+                >
+                  Jim Davis recently stepped into the first funded level of
+                  Beeline to Funding and I had the pleasure of hearing his
+                  story–his struggles, triumphs, strategy, and more. Jim is a
+                  salesman that took some interest in trading stocks and options
+                  in the late 90’s but kept most of these aspirations on the
+                  shelf until about the Spring of 2016. He was looking for a way
+                  to supplement his present income and through his research
+                  trading surfaced as a great solution. Swimming around the
+                  internet we found Jim as someone interested in trading and so
+                  a webinar invitation was sent and the connection was made!
+                  Liking the trust he could feel in the Apiary Fund and also the
+                  opportunity to trade our money, he decided that this would be
+                  a good place to begin his trading career.
+                </p>
+                <div class="flex justify-center">
+                  <img src="./assets/images/MaskGroup(3).png" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center">
+              <div
+                class="text-1xl font-bold beehive_common_orange_color py-4 flex items-center cursor-pointer"
+                onclick="showMoreMethod3()"
+              >
+                <h6 class="px-3" id="show_text">Show More</h6>
+                <div id="downward_arrow3" class="arrow_image mt-1"></div>
+                <div
+                  id="upward_arrow3"
+                  class="hidden arrowUpward_image mt-1"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- record 2 -->
+          <div class="py-5">
+            <!-- image -->
+            <div class="flex justify-center">
+              <img src="./assets/images/MaskGroup(1).png" />
+            </div>
+            <!-- name -->
+            <div>
+              <h1
+                class="text-1xl font-extrabold text-center beehive_common_orange_color py-4"
+              >
+                LEN PAVIA
+              </h1>
+            </div>
+            <!-- heading -->
+            <div>
+              <h1
+                class="text-2xl font-extrabold text-center beehive_common_blue_color py-4"
+              >
+                EXPERIENCE AND PATH TO FUNDING WITH THE APIARY FUND
+              </h1>
+            </div>
+            <!-- paragraph -->
+            <div>
+              <h1
+                class="text-1xl font-extrabold text-center beehive_common_blue_color py-4"
+              >
+                Have you ever wanted to pick the brain of someone who has made
+                it through Beeline and is managing a funded account so you could
+                get some tips and expectations for your journey to funding?
+              </h1>
+              <div id="showMore-text2" class="hidden">
+                <p
+                  class="text-1xl font-extrabold text-center beehive_common_blue_color py-4"
+                >
+                  Jim Davis recently stepped into the first funded level of
+                  Beeline to Funding and I had the pleasure of hearing his
+                  story–his struggles, triumphs, strategy, and more. Jim is a
+                  salesman that took some interest in trading stocks and options
+                  in the late 90’s but kept most of these aspirations on the
+                  shelf until about the Spring of 2016. He was looking for a way
+                  to supplement his present income and through his research
+                  trading surfaced as a great solution. Swimming around the
+                  internet we found Jim as someone interested in trading and so
+                  a webinar invitation was sent and the connection was made!
+                  Liking the trust he could feel in the Apiary Fund and also the
+                  opportunity to trade our money, he decided that this would be
+                  a good place to begin his trading career.
+                </p>
+                <div class="flex justify-center">
+                  <img src="./assets/images/MaskGroup(3).png" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center">
+              <div
+                class="text-1xl font-bold beehive_common_orange_color py-4 flex items-center cursor-pointer"
+                onclick="showMoreMethod2()"
+              >
+                <h6 class="px-3" id="show_text">Show More</h6>
+                <div id="downward_arrow2" class="arrow_image mt-1"></div>
+                <div
+                  id="upward_arrow2"
+                  class="hidden arrowUpward_image mt-1"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- record 3 -->
+          <div class="py-5">
+            <!-- image -->
+            <div class="flex justify-center">
+              <img src="./assets/images/MaskGroup(2).png" />
+            </div>
+            <!-- name -->
+            <div>
+              <h1
+                class="text-1xl font-extrabold text-center beehive_common_orange_color py-4"
+              >
+                LEN PAVIA
+              </h1>
+            </div>
+            <!-- heading -->
+            <div>
+              <h1
+                class="text-2xl font-extrabold text-center beehive_common_blue_color py-4"
+              >
+                EXPERIENCE AND PATH TO FUNDING WITH THE APIARY FUND
+              </h1>
+            </div>
+            <!-- paragraph -->
+            <div>
+              <p
+                class="text-1xl font-extrabold text-center beehive_common_blue_color py-4"
+              >
+                Have you ever wanted to pick the brain of someone who has made
+                it through Beeline and is managing a funded account so you could
+                get some tips and expectations for your journey to funding?
+              </p>
+              <div id="showMore-text" class="hidden">
+                <p
+                  class="text-1xl font-extrabold text-center beehive_common_blue_color py-4"
+                >
+                  Jim Davis recently stepped into the first funded level of
+                  Beeline to Funding and I had the pleasure of hearing his
+                  story–his struggles, triumphs, strategy, and more. Jim is a
+                  salesman that took some interest in trading stocks and options
+                  in the late 90’s but kept most of these aspirations on the
+                  shelf until about the Spring of 2016. He was looking for a way
+                  to supplement his present income and through his research
+                  trading surfaced as a great solution. Swimming around the
+                  internet we found Jim as someone interested in trading and so
+                  a webinar invitation was sent and the connection was made!
+                  Liking the trust he could feel in the Apiary Fund and also the
+                  opportunity to trade our money, he decided that this would be
+                  a good place to begin his trading career.
+                </p>
+                <div class="flex justify-center">
+                  <img src="./assets/images/MaskGroup(3).png" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center">
+              <div
+                class="text-1xl font-bold beehive_common_orange_color py-4 flex items-center cursor-pointer"
+                onclick="showMoreMethod1()"
+              >
+                <h6 class="px-3" id="show_text">Show More</h6>
+                <div id="downward_arrow" class="arrow_image mt-1"></div>
+                <div
+                  id="upward_arrow"
+                  class="hidden arrowUpward_image mt-1"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <!-- section 11 stars from here-->
+      <div class="beehive_sectionTwelve_container py-12 px-10">
+        <div class="container mx-auto">
+          <div class="lg:flex xl:flex">
+            <!-- logo -->
+            <div class="lg:w-2/12 xl:w-2/12 flex justify-center pb-5">
+              <div class="footer_logo"></div>
+            </div>
+            <!-- links -->
+            <div class="lg:flex xl:flex lg:w-10/12 xl:w-10/12">
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Links
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Product Tour
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Pricing</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Founding Members
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Case Studies
+                </li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Company
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Blog</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Career</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Privacy</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">About</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Support
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Documentation
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Security
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Mobility Guide
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">FAQs</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Legal
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Terms of Service
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Privacy Policy
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Cookie Information
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  GDPR Commitment
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function showMoreMethod1() {
+        var x = document.getElementById("showMore-text");
+        var downward_arrow = document.getElementById("downward_arrow");
+        var upward_arrow = document.getElementById("upward_arrow");
+        if (
+          x.style.display === "block" ||
+          downward_arrow.style.display === "none" ||
+          upward_arrow.style.display === "block"
+        ) {
+          x.style.display = "none";
+          downward_arrow.style.display = "block";
+          upward_arrow.style.display = "none";
+          document.getElementById("show_text").innerHTML = "Show More";
+        } else {
+          x.style.display = "block";
+          downward_arrow.style.display = "none";
+          upward_arrow.style.display = "block";
+          document.getElementById("show_text").innerHTML = "Show Less";
+        }
+      }
+      function showMoreMethod2() {
+        var x = document.getElementById("showMore-text2");
+        var downward_arrow = document.getElementById("downward_arrow2");
+        var upward_arrow = document.getElementById("upward_arrow2");
+        if (
+          x.style.display === "block" ||
+          downward_arrow.style.display === "none" ||
+          upward_arrow.style.display === "block"
+        ) {
+          x.style.display = "none";
+          downward_arrow.style.display = "block";
+          upward_arrow.style.display = "none";
+          document.getElementById("show_text").innerHTML = "Show More";
+        } else {
+          x.style.display = "block";
+          downward_arrow.style.display = "none";
+          upward_arrow.style.display = "block";
+          document.getElementById("show_text").innerHTML = "Show Less";
+        }
+      }
+      function showMoreMethod3() {
+        var x = document.getElementById("showMore-text3");
+        var downward_arrow = document.getElementById("downward_arrow3");
+        var upward_arrow = document.getElementById("upward_arrow3");
+        if (
+          x.style.display === "block" ||
+          downward_arrow.style.display === "none" ||
+          upward_arrow.style.display === "block"
+        ) {
+          x.style.display = "none";
+          downward_arrow.style.display = "block";
+          upward_arrow.style.display = "none";
+          document.getElementById("show_text").innerHTML = "Show More";
+        } else {
+          x.style.display = "block";
+          downward_arrow.style.display = "none";
+          upward_arrow.style.display = "block";
+          document.getElementById("show_text").innerHTML = "Show Less";
+        }
+      }
+
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

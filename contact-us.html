@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeeHive</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="beeHive_container">
+      <!-- section 1 stars from here-->
+      <div class="reviews_sectionOne_container py-5 px-2">
+        <!--header-->
+        <div
+          class="container mx-auto logo_links_container flex justify-between"
+        >
+          <div class="logo"></div>
+          <div class="nav_links">
+            <!-- apply button -->
+            <div class="flex justify-end">
+              <div class="hidden md:hidden lg:block xl:block">
+                <button
+                  class="bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-5 py-3 border border-white-400 rounded-full shadow"
+                >
+                  Apply Here!
+                </button>
+              </div>
+              <div class="lg:hidden xl:hidden">
+                <span
+                  style="font-size: 30px; cursor: pointer"
+                  onclick="openNav()"
+                  >&#9776;</span
+                >
+              </div>
+            </div>
+            <!-- links -->
+            <div class="py-5 hidden md:hidden lg:block xl:block">
+              <ul
+                class="m-0 list-none flex text-white text-lg font-extrabold"
+              >
+                <a href="#"><li class="px-4">Home</li></a>
+                <a href="about-us.html"><li class="px-4">About Us</li></a>
+                <a href="beehive.html"><li class="px-4">BeeLine</li></a>
+                <a href="reviews.html"><li class="px-4">Reviews</li></a>
+                <a href="events.html"><li class="px-4">Events</li></a>
+                <a href="contact-us.html"><li class="px-4">Contact</li></a>
+                <a href="event-single.html"
+                  ><li class="px-4">Resources</li></a
+                >
+              </ul>
+            </div>
+            <!-- mobileNavigation -->
+            <div id="mySidenav" class="mobile_sidenav">
+              <a
+                href="javascript:void(0)"
+                class="closebtn"
+                onclick="closeNav()"
+                >&times;</a
+              >
+              <a href="#">Home</a>
+              <a href="about-us.html">About Us</a>
+              <a href="beehive.html">BeeLine</a>
+              <a href="reviews.html">Reviews</a>
+              <a href="events.html">Events</a>
+              <a href="contact-us.html">Contact</a>
+              <a href="event-single.html">Resources</a>
+            </div>
+          </div>
+        </div>
+        <!-- body -->
+        <div
+          class="title_paragraph container mx-auto flex flex-col justify-center beehive_common_blue_color flex items-center px-5"
+        >
+          <h1 class="text-5xl font-extrabold text-center py-12">Contact Us</h1>
+        </div>
+      </div>
+      <!-- section 2 starts from here -->
+      <div class="reviews_sectionTwo_container py-12">
+        <div class="container mx-auto">
+          <!-- heading -->
+          <div class="px-6 flex justify-center">
+            <h1
+              class="text-2xl w-12/12 md:w-10/12 lg:w-6/12 xl:w-6/12 text-center font-extrabold beehive_common_blue_color py-4"
+            >
+              FILL OUT YOUR INFORMATION BELOW TO GET IN TOUCH WITH US.
+            </h1>
+          </div>
+          <!-- record one -->
+          <div class="py-2 px-6">
+            <!-- form -->
+            <form class="w-12/12 py-10">
+              <!-- 1st row -->
+              <div
+                class="w-12/12 lg:flex xl:flex lg:justify-between xl:justify-between px-12"
+              >
+                <!-- first name -->
+                <div class="w-12/12 lg:w-6/12 xl:w-6/12 py-2 lg:pr-2 xl:pr-2">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    class="py-3 px-5 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-1 border-gray-300 rounded-md"
+                  />
+                </div>
+                <!-- last name -->
+                <div class="w-12/12 lg:w-6/12 xl:w-6/12 py-2 lg:pl-2 xl:pl-2">
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    class="py-3 px-5 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-1 border-gray-300 rounded-md"
+                  />
+                </div>
+              </div>
+              <!-- 2nd row -->
+              <div
+                class="w-12/12 lg:flex xl:flex lg:justify-between xl:justify-between px-12"
+              >
+                <!-- Email -->
+                <div class="w-12/12 lg:w-6/12 xl:w-6/12 py-2 lg:pr-2 xl:pr-2">
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    class="py-3 px-5 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-1 border-gray-300 rounded-md"
+                  />
+                </div>
+                <!-- last name -->
+                <div class="w-12/12 lg:w-6/12 xl:w-6/12 py-2 lg:pl-2 xl:pl-2">
+                  <input
+                    type="text"
+                    placeholder="Phone Number"
+                    class="py-3 px-5 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-1 border-gray-300 rounded-md"
+                  />
+                </div>
+              </div>
+              <!-- 3rd row -->
+              <div class="w-12/12 px-12">
+                <!-- Email -->
+                <div class="w-12/12 py-2">
+                  <input
+                    type="text"
+                    placeholder="Issue *"
+                    class="py-3 px-5 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-1 border-gray-300 rounded-md"
+                  />
+                </div>
+              </div>
+              <!-- 4th row -->
+              <div class="w-12/12 px-12">
+                <!-- Details -->
+                <div class="w-12/12 py-2">
+                  <textarea
+                    type="text"
+                    placeholder="Deails"
+                    class="py-3 px-5 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-1 border-gray-300 rounded-md"
+                  ></textarea>
+                </div>
+              </div>
+              <!-- button -->
+              <div class="py-10 flex justify-center">
+                <button
+                  class="w-10/12 md:w-3/12 lg:w-2/12 xl:w-2/12 beehive_common_background_orange_color text-white font-bold py-3 px-4 rounded-full"
+                >
+                  Learn More
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <!-- section 11 stars from here-->
+      <div class="beehive_sectionTwelve_container py-12 px-10">
+        <div class="container mx-auto">
+          <div class="lg:flex xl:flex">
+            <!-- logo -->
+            <div class="lg:w-2/12 xl:w-2/12 flex justify-center pb-5">
+              <div class="footer_logo"></div>
+            </div>
+            <!-- links -->
+            <div class="lg:flex xl:flex lg:w-10/12 xl:w-10/12">
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Links
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Product Tour
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Pricing</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Founding Members
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Case Studies
+                </li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Company
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Blog</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Career</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Privacy</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">About</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Support
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Documentation
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Security
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Mobility Guide
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">FAQs</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Legal
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Terms of Service
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Privacy Policy
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Cookie Information
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  GDPR Commitment
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
