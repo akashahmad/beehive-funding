@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeeHive</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="beeHive_container">
+      <!-- section 1 stars from here-->
+      <div class="Home_sectionOne_container py-5">
+        <!--header-->
+        <div
+          class="container mx-auto logo_links_container flex justify-between px-2"
+        >
+          <div class="logo"></div>
+          <div class="nav_links">
+            <!-- apply button -->
+            <div class="flex justify-end">
+              <div class="hidden md:hidden lg:block xl:block">
+                <a
+                  class="text-gray-600 font-semibold py-2 px-5 py-3"
+                  href="contact-us.html"
+                >
+                  Apply Here!
+                </a>
+              </div>
+              <div class="lg:hidden xl:hidden">
+                <span
+                  style="font-size: 30px; cursor: pointer"
+                  onclick="openNav()"
+                  >&#9776;</span
+                >
+              </div>
+            </div>
+            <!-- mobileNavigation -->
+            <div id="mySidenav" class="mobile_sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+              <a href="contact-us.html">Apply Here!</a>
+            </div>
+          </div>
+        </div>
+        <!-- body -->
+        <div class="title_paragraph flex flex-col justify-center">
+          <div class="px-2 container mx-auto beehive_common_blue_color">
+            <h1 class="text-4xl font-extrabold lg:w-6/12 xl:w-6/12">
+              LEARN TO TRADE ONLINE AND SHARE IN THE PROFITS!
+            </h1>
+            <p class="py-5 text-1xl lg:w-6/12 xl:w-6/12">
+              We’ve helped over 3000 new traders make as much as $1000 or more
+              per month... Will you be next?
+            </p>
+            <a
+              href="contact-us.html"
+              class="text-center w-6/12 md:w-4/12 lg:w-2/12 xl:w-2/12 bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-4 rounded-full"
+            >
+              Apply Here
+            </a>
+          </div>
+          <div class="py-6 flex justify-end">
+            <div
+              class="beehive_common_background_orange_color text-white py-5 rounded-l-full px-10 cursor-pointer"
+            >
+              <h1 class="text-2xl font-bold">CHAT BOT</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 2 stars from here-->
+      <div class="contactUs_section4 px-6 py-12">
+        <div
+          class="container mx-auto flex justify-end content_container items-center"
+        >
+          <div class="lg:w-6/12 xl:w-6/12 flex flex-col justify-center">
+            <h1 class="py-3 font-bold beehive_common_blue_color">
+              WELCOME TO THE
+            </h1>
+            <h1 class="text-4xl font-extrabold beehive_common_blue_color">
+              LEADING TRADING INSTITUTE IN THE WORLD
+            </h1>
+            <p class="py-3 beehive_common_blue_color">
+              We train our students to become consistently profitable. Once
+              we’ve taught you everything that a 2.5 trillion-dollar hedge fund
+              manager knows and you pass our tests, we’ll put our money where
+              our mouth is and GIVE YOU OUR MONEY to trade. From there on,
+              you’ll keep up to 70% of all the profits you make and NEVER risk
+              losing your own personal money on a trade.
+            </p>
+            <div class="py-4">
+              <button
+                class="py-4 outline-none px-6 border-solid border border-black rounded-full font-bold hover:bg-gray-400 hover:text-white"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 3 stars from here-->
+      <div class="Home_carousal_container pink_background_color py-12">
+        <div class="container mx-auto slideshow-container py-12">
+          <!-- 1st box -->
+          <div class="mySlides fade">
+            <!-- box_container -->
+            <div class="flex flex-col items-center">
+              <!-- card -->
+              <!-- image -->
+              <div class="flex justify-center my-6">
+                <img
+                  src="./assets/images/profile4.png"
+                  width="100px"
+                  class="absolute"
+                />
+              </div>
+              <div
+                class="my-12 py-10 px-5 shadow-2xl bg-white rounded-2xl w-8/12 lg:w-7/12 xl:w-7/12"
+              >
+                <!-- card data -->
+                <div>
+                  <h1
+                    class="text-3xl text-center beehive_common_blue_color py-3 font-extrabold px-8"
+                  >
+                    Mich Johnson, Australia
+                  </h1>
+                  <div class="flex justify-center py-3">
+                    <div>
+                      <img src="./assets/images/quotetaion.png" />
+                    </div>
+                    <div class="px-3">
+                      <img src="./assets/images/quotetaion.png" />
+                    </div>
+                  </div>
+                  <p
+                    class="text-center beehive_common_blue_color py-3 font-extrabold px-5"
+                  >
+                    The multichannel sales engagement platform which automates
+                    personal email outreach, calls, and tasks, while Sales can
+                    focus on what really matters - closing while Sales can focus
+                    on what really matters - closing
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd box -->
+          <div class="mySlides fade">
+            <!-- box_container -->
+            <div class="flex flex-col items-center">
+              <!-- card -->
+              <!-- image -->
+              <div class="flex justify-center my-6">
+                <img
+                  src="./assets/images/profile8.png"
+                  width="100px"
+                  class="absolute"
+                />
+              </div>
+              <div
+                class="my-12 py-10 px-5 shadow-2xl bg-white rounded-2xl w-8/12 lg:w-7/12 xl:w-7/12"
+              >
+                <!-- card data -->
+                <div>
+                  <h1
+                    class="text-3xl text-center beehive_common_blue_color py-3 font-extrabold px-8"
+                  >
+                    Mich Johnson, Australia
+                  </h1>
+                  <div class="flex justify-center py-3">
+                    <div>
+                      <img src="./assets/images/quotetaion.png" />
+                    </div>
+                    <div class="px-3">
+                      <img src="./assets/images/quotetaion.png" />
+                    </div>
+                  </div>
+                  <p
+                    class="text-center beehive_common_blue_color py-3 font-extrabold px-5"
+                  >
+                    The multichannel sales engagement platform which automates
+                    personal email outreach, calls, and tasks, while Sales can
+                    focus on what really matters - closing while Sales can focus
+                    on what really matters - closing
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd box -->
+          <div class="mySlides fade">
+            <!-- box_container -->
+            <div class="flex flex-col items-center">
+              <!-- card -->
+              <!-- image -->
+              <div class="flex justify-center my-6">
+                <img
+                  src="./assets/images/profile5.png"
+                  width="100px"
+                  class="absolute"
+                />
+              </div>
+              <div
+                class="my-12 py-10 px-5 shadow-2xl bg-white rounded-2xl w-8/12 lg:w-7/12 xl:w-7/12"
+              >
+                <!-- card data -->
+                <div>
+                  <h1
+                    class="text-3xl text-center beehive_common_blue_color py-3 font-extrabold px-8"
+                  >
+                    Mich Johnson, Australia
+                  </h1>
+                  <div class="flex justify-center py-3">
+                    <div>
+                      <img src="./assets/images/quotetaion.png" />
+                    </div>
+                    <div class="px-3">
+                      <img src="./assets/images/quotetaion.png" />
+                    </div>
+                  </div>
+                  <p
+                    class="text-center beehive_common_blue_color py-3 font-extrabold px-5"
+                  >
+                    The multichannel sales engagement platform which automates
+                    personal email outreach, calls, and tasks, while Sales can
+                    focus on what really matters - closing while Sales can focus
+                    on what really matters - closing
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <!-- section 4 stars from here-->
+      <div class="home_sectionThree_container py-12">
+        <div class="container mx-auto py-12">
+          <!-- section 3 title -->
+          <div class="text-center">
+            <h1 class="text-4xl py-3 font-bold beehive_common_blue_color">
+              HOW IT WORKS
+            </h1>
+            <h1 class="py-3 font-bold beehive_common_blue_color">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry
+            </h1>
+          </div>
+          <div
+            class="flex flex-col items-center lg:justify-center xl:justify-center py-10 px-5 lg:flex-row xl:flex-row"
+          >
+            <!-- 1st box -->
+            <div
+              class="w-10/12 lg:w-3/12 xl:w-3/12 flex flex-col justify-center shadow-2xl py-4 rounded-2xl"
+            >
+              <div class="py-2 flex justify-center">
+                <img src="./assets/images/verified_user.png" />
+              </div>
+              <div class="text-center">
+                <h1 class="py-3 font-bold beehive_common_blue_color">
+                  CREATE AN ACCOUNT
+                </h1>
+              </div>
+            </div>
+            <!-- 2nd box -->
+            <div
+              class="my-4 lg:my-0 xl:my-0 lg:mx-8 xl:mx-8 w-10/12 lg:w-3/12 xl:w-3/12 flex flex-col justify-center shadow-2xl py-4 rounded-2xl"
+            >
+              <div class="py-2 flex justify-center">
+                <img src="./assets/images/account_balance.png" />
+              </div>
+              <div class="text-center">
+                <h1 class="py-3 font-bold beehive_common_blue_color">
+                  Link your bank account
+                </h1>
+              </div>
+            </div>
+            <!-- 3rd box -->
+            <div
+              class="w-10/12 lg:w-3/12 xl:w-3/12 flex flex-col justify-center shadow-2xl py-4 rounded-2xl"
+            >
+              <div class="py-2 flex justify-center">
+                <img src="./assets/images/transfer_within_a_station.png" />
+              </div>
+              <div class="text-center">
+                <h1 class="py-3 font-bold beehive_common_blue_color">
+                  Start buying & selling
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 5 stars from here-->
+      <div class="beehive_sectionFour_container py-12">
+        <div class="container mx-auto py-12 px-2">
+          <h1
+            class="text-4xl py-3 font-bold beehive_common_blue_color text-center"
+          >
+            HOW IT WORKS
+          </h1>
+          <p class="py-5 font-bold beehive_common_blue_color text-center">
+            The Beeline to Funding is an innovative Trader Development System
+            which takes you step-by-step from a beginner trader to a
+            professional trader in as little as 1 hour a day. In this system,
+            you’ll gain “experience points” by watching training videos and by
+            placing trades, because practice makes profit. As you gain points
+            and increase your skills, you’ll rise through the Beeline hives from
+            Copper, to Bronze, to Silver, and finally Gold! Upon completion of
+            the Beeline system, you’ll be given your very own Apiary Fund
+            trading account so you can trade for profits with our money!
+          </p>
+          <div class="pt-10 px-5">
+            <h1
+              class="text-3xl py-3 font-bold beehive_common_blue_color text-center"
+            >
+              Inside The “BEELINE TO FUNDING” You’ll Get:
+            </h1>
+          </div>
+          <!-- left-side and right-side div container -->
+          <div
+            class="md:flex lg:flex xl:flex py-5 md:justify-between lg:justify-between xl:justify-between"
+          >
+            <!-- left-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <div class="flex items-center">
+                <div>
+                  <img src="./assets/images/greenArrow.png" />
+                </div>
+                <div>
+                  <p class="py-5 px-5">
+                    The 12-Part “From Nobody to Expert Trader” Course
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <div>
+                  <img src="./assets/images/greenArrow.png" />
+                </div>
+                <div>
+                  <p class="py-5 px-5">
+                    100% Personal Access to Support via Website, Webinar & Email
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <div>
+                  <img src="./assets/images/greenArrow.png" />
+                </div>
+                <div>
+                  <p class="py-5 px-5">
+                    Exclusive Access to Our “Funded Trader’s Community Forum”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right-side  -->
+            <div class="sm:w-12 md:w-6/12 lg:w-6/12 xl:w-6/12 px-10 py-2">
+              <div class="flex items-center">
+                <div>
+                  <img src="./assets/images/greenArrow.png" />
+                </div>
+                <div>
+                  <p class="py-5 px-5">Your Own Simulated Trading Account</p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <div>
+                  <img src="./assets/images/greenArrow.png" />
+                </div>
+                <div>
+                  <p class="py-5 px-5">
+                    Hands-on trading experience with real money in real markets
+                    in real-time
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <div>
+                  <img src="./assets/images/greenArrow.png" />
+                </div>
+                <div>
+                  <p class="py-5 px-5">
+                    Exclusive Access to Our “Funded Trader’s Community Forum”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 6 stars from here-->
+      <div class="beehive_sectionEleven_container py-10">
+        <div
+          class="container mx-auto lg:flex xl:flex md:justify-between lg:justify-between xl:justify-between"
+        >
+          <div>
+            <h1
+              class="text-3xl beehive_common_blue_color py-3 font-extrabold sm:w-12 md:w-10/12 lg:w-9/12 xl:w-9/12 px-5"
+            >
+              TRY “BEELINE TO FUNDING” RISK FREE!
+            </h1>
+          </div>
+          <div class="py-8 sm:w-10/12 lg:w-3/12 xl:w-3/12 px-5">
+            <button
+              onclick="window.location.href='contact-us.html'"
+              class="w-12/12 outline-none beehive_common_background_orange_color text-white font-bold py-3 px-4 rounded-full button_section11"
+            >
+              Apply Here
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- section 7 stars from here-->
+      <div class="home_sectionSix_container py-12">
+        <div class="beehive_sectionFour_container py-12">
+          <div class="container mx-auto py-12 px-2">
+            <h1
+              class="text-4xl py-3 font-bold beehive_common_blue_color text-center"
+            >
+              APPLY TODAY
+            </h1>
+            <p class="py-5 font-bold beehive_common_blue_color text-center">
+              WE’VE HELPED OVER 1,600 NEW TRADERS MAKE AS MUCH AS $2,532 OR MORE
+              PER MONTH… WILL YOU BE NEXT?
+            </p>
+            <div class="py-5 flex justify-center">
+              <button
+                onclick="window.location.href='contact-us.html'"
+                class="w-12/12 outline-none beehive_common_background_orange_color text-white font-bold py-3 px-4 rounded-full button_section11"
+              >
+                Apply Here
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 8 stars from here-->
+      <div class="home_sectionEight_container flex justify-center py-12 px-5">
+        <div class="container mx-auto px-6">
+          <div class="py-10">
+            <h1
+              class="text-3xl text-center beehive_common_blue_color py-3 font-extrabold"
+            >
+              TRY “BEELINE TO FUNDING” RISK FREE!
+            </h1>
+          </div>
+          <div class="py-2 px-5">
+            <button
+              type="button"
+              class="collapsible outline-none beehive_common_blue_color text-2xl font-extrabold"
+            >
+              What is the Beehive Fund?
+            </button>
+            <div class="content">
+              <p class="py-7">
+                The Beehive Fund is a proprietary trading fund and education
+                company with a primary focus on risk management in the markets.
+                We offer hundreds of hours of recorded education, copious live
+                classes every week, and simulated trading accounts to practice
+                in while you’re going through our Trader Development System –
+                the Beeline to Funding. Once you’ve completed the Beeline,
+                Apiary Fund will give you a live funded account with Apiary
+                money to trade!
+              </p>
+            </div>
+          </div>
+          <div class="py-2 px-5">
+            <button
+              type="button"
+              class="collapsible beehive_common_blue_color text-2xl font-extrabold"
+            >
+              How can I join the Beehive Fund?
+            </button>
+            <div class="content">
+              <p class="py-7">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="py-2 px-5">
+            <button
+              type="button"
+              class="collapsible beehive_common_blue_color text-2xl font-extrabold"
+            >
+              Can I trade my own money with Beehive Fund?
+            </button>
+            <div class="content">
+              <p class="py-7">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="py-2 px-5">
+            <button
+              type="button"
+              class="collapsible beehive_common_blue_color text-2xl font-extrabold"
+            >
+              How long does it take to go through the Beeline system and get
+              funded?
+            </button>
+            <div class="content">
+              <p class="py-7">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="py-2 px-5">
+            <button
+              type="button"
+              class="collapsible beehive_common_blue_color text-2xl font-extrabold"
+            >
+              Is there a risk deposit?
+            </button>
+            <div class="content">
+              <p class="py-7">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <!-- section 11 stars from here-->
+      <div class="beehive_sectionTwelve_container py-12 px-10">
+        <div class="container mx-auto">
+          <div class="lg:flex xl:flex">
+            <!-- logo -->
+            <div class="lg:w-2/12 xl:w-2/12 flex justify-center pb-5">
+              <div class="footer_logo"></div>
+            </div>
+            <!-- links -->
+            <div class="lg:flex xl:flex lg:w-10/12 xl:w-10/12">
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Links
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Product Tour
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Pricing</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Founding Members
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Case Studies
+                </li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Company
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Blog</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Career</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">Privacy</li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">About</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Support
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Documentation
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Security
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Mobility Guide
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">FAQs</li>
+              </ul>
+              <ul
+                class="text-white sm:px-5 md:px-5 lg:px-10 xl:px-10 text-center md:text-center lg:text-left xl:text-left pb-5"
+              >
+                <li class="py-1 hover:text-blue-500 cursor-pointer text-2xl">
+                  Legal
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Terms of Service
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Privacy Policy
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  Cookie Information
+                </li>
+                <li class="py-1 hover:text-blue-500 cursor-pointer">
+                  GDPR Commitment
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+      // collapsible script
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

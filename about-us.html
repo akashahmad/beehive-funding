@@ -30,11 +30,17 @@
               <!-- apply button -->
               <div class="flex justify-end">
                 <div class="hidden md:hidden lg:block xl:block">
-                  <button
-                    class="bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-5 py-3 border border-white-400 rounded-full shadow"
+                  <a
+                    class="text-gray-100 cursor-pointer hover:text-gray-300 font-semibold py-2 px-5 py-3"
+                  >
+                    Trader Login
+                  </a>
+                  <a
+                    href="contact-us.html"
+                    class="bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-5 py-3 border border-white-400 rounded-full shadow lg:mx-2 xl:mx-2"
                   >
                     Apply Here!
-                  </button>
+                  </a>
                 </div>
                 <div class="lg:hidden xl:hidden">
                   <span
@@ -49,7 +55,7 @@
                 <ul
                   class="m-0 list-none flex text-white text-lg font-extrabold"
                 >
-                  <a href="#"><li class="px-4">Home</li></a>
+                  <a href="home.html"><li class="px-4">Home</li></a>
                   <a href="about-us.html"><li class="px-4">About Us</li></a>
                   <a href="beehive.html"><li class="px-4">BeeLine</li></a>
                   <a href="reviews.html"><li class="px-4">Reviews</li></a>
@@ -68,7 +74,7 @@
                   onclick="closeNav()"
                   >&times;</a
                 >
-                <a href="#">Home</a>
+                <a href="home.html">Home</a>
                 <a href="about-us.html">About Us</a>
                 <a href="beehive.html">BeeLine</a>
                 <a href="reviews.html">Reviews</a>
@@ -90,7 +96,8 @@
             </p>
             <div class="flex justify-center py-3">
               <button
-                class="w-3/12 bg-white hover:bg-gray-200 beehive_common_orange_color font-semibold py-2 px-5 py-3 border border-white-400 rounded-full shadow"
+                onclick="window.location.href='contact-us.html'"
+                class="w-3/12 bg-white outline-none hover:bg-gray-200 beehive_common_orange_color font-semibold py-2 px-5 py-3 border border-white-400 rounded-full shadow"
               >
                 Apply Here!
               </button>
@@ -380,7 +387,7 @@
             </p>
             <div class="py-4">
               <button
-                class="py-4 px-6 border-solid border border-black rounded-full font-bold hover:bg-gray-400 hover:text-white"
+                class="py-4 outline-none px-6 border-solid border border-black rounded-full font-bold hover:bg-gray-400 hover:text-white"
               >
                 Get Started
               </button>
